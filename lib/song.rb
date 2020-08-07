@@ -31,8 +31,8 @@ class Song
     genre_count = {}
     @@genres.each do |genre|
         if !@@genres.include?(genre)
-          @@genres << genre
-        @@genre_count[key] = self.count
+          genre_count[genre]
+       
       end
     end
   end
